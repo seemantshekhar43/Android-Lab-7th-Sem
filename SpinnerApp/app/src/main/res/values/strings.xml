@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Spinner App</string>
+    <string-array name="branch_names">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>EEE</item>
+    </string-array>
+</resources>
