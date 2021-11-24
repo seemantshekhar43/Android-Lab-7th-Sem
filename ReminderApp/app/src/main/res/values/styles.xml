@@ -1,0 +1,53 @@
+<resources>
+
+	<!-- Application light theme -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/lightColorPrimary</item>
+		<item name="colorPrimaryDark">@color/lightColorPrimaryDark</item>
+		<item name="colorAccent">@color/lightColorAccent</item>
+		<item name="colorSelection">@color/colorSelection</item>
+		<item name="colorTextMuted">@color/lightTextMuted</item>
+	</style>
+
+	<style name="AppTheme.NoActionBar">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+
+	<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+	<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+	<!-- Application dark theme -->
+	<style name="AppTheme.Dark" parent="Theme.AppCompat">
+		<item name="colorPrimary">@color/darkColorPrimary</item>
+		<item name="colorPrimaryDark">@color/darkColorPrimaryDark</item>
+		<item name="colorAccent">@color/darkColorAccent</item>
+		<item name="colorSelection">@color/colorSelection</item>
+		<item name="colorTextMuted">@color/darkTextMuted</item>
+	</style>
+
+	<style name="AppTheme.Dark.NoActionBar">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+
+	<style name="AppTheme.Dark.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+	<style name="AppTheme.Dark.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+
+	<!-- Other -->
+	<style name="Divider">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">1dp</item>
+		<item name="android:background">?android:attr/listDivider</item>
+	</style>
+
+	<style name="TabLayoutWithoutCaps" parent="TextAppearance.Design.Tab">
+		<item name="textAllCaps">false</item>
+		<item name="android:textAllCaps">false</item>
+	</style>
+
+</resources>
